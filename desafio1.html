@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1 - HTML</title>
+</head>
+<body>
+<h1>Primeiro Exercício de HTML - <abbr title="Digital Innovation One">DIO</abbr></h1>
+<hr>
+<h2 id="indice">Índice</h2>
+<ol>
+    <li><a href="#estrutura">Estrutura Básica</a></li>
+    <li><a href="#tags">Tags HTML</a></li>
+    <li><a href="#atributos">Atributos das Tags</a> </li>
+    <li><a href="#textos">Textos</a></li>
+    <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+    <li><a href="#links">Links</a></li>
+    <li><a href="#referencias">Referências</a></li>
+</ol>
+
+<h3 id="estrutura">Estrutura Básica</h3>
+<p>A estrutura básica do HTML é composta pelos elementos !DOCTYPE html, no qual declaramos que o documento é um html, as tags html, head e body. O elemento html representa a raiz do documento html, e todos os outros elementos devem ser descendentes dele.</p>
+<p>No head, colocamos as informações que o browser irá interpretar a respeito daquele documento em si, o que chamamos de metadados. Já no body, temos as informações e elementos que de fato irão aparecer na tela para o usuário.</p>
+
+<blockquote cite="https://frasesinspiradoras.net/tim-berners-lee/frase/279225">
+    <i>"A Web não apenas conecta máquinas, conecta as pessoas." Tim Berners Lee.</i>
+</blockquote>
+
+<small><a href="#indice">Voltar</a></small>
+
+<h3 id="tags">Tags HTML</h3>
+<p>Existem inúmeras tags que podem ser usadas num documento HTML, algumas delas semânticas e outras não. Vamos citar aqui alguns exemplos de tags:</p>
+<ul>
+    <li>Tags &lt;h1&gt; a &lt;h6&gt;</li>
+    <li>Tag &lt;p&gt;</li>
+    <li>Tag &lt;a&gt;</li>
+    <li>Tag &lt;hr&gt;</li>
+    <li>Tags &lt;ul&gt;, &lt;ol&gt; e &lt;li&gt;</li>
+</ul>
+
+<small><a href="#indice">Voltar</a></small>
+
+<h3 id="atributos"><u>Atributos das Tags</u></h3>
+<p>Quando falamos de tags, logo aprendemos sobre os atributos. Atributos são como características que colocamos nas tags de forma a controlar o seu comportamento. Existem atributos <u>globais</u>, que podem ser aplicados a qualquer tag HTML e também existem os atributos <u>específicos</u>, que funcionam apenas para determinadas tags.</p>
+<p>Alguns atributos globais que podemos citar: <mark>class, id, style.</mark></p>
+<p>Atributos específicos: <mark>href, target, width.</mark></p>
+
+<small><a href="#indice">Voltar</a></small>
+
+<h3 id="textos">Textos</h3>
+<p>Nos documentos HTML, é muito comum haver textos, como em blogs e sites de notícias. Para estruturar bem o nosso texto, algumas das tags principais são as tags &lt;h1&gt; a &lt;h6&gt;, que funcionam da forma abaixo: </p>
+<h1>Título da Página</h1>
+<h2>Subtítulo da Página</h2>
+<h3>Subtítulo da Página</h3>
+<h4>Subtítulo da Página</h4>
+<h5>Subtítulo da Página</h5>
+<h6>Subtítulo da Página</h6>
+
+<p>Em geral, devemos usar apenas um &lt;h1&gt; por página, indicando o título da mesma, e estruturar o restante do texto de acordo com as demais tags &lt;h2&gt; a &lt;h6&gt;.</p>
+
+<p>As vezes, para números ou algum tipo de expressão podem ser usadas as tags &lt;sub&gt; e &lt;sup&gt;.</p>
+<p>Veja como fica a fórmula química do ácido sulfúrico, se utiliza a tag &lt;sub&gt;:</p>
+<p>H<sub>2</sub>SO<sub>4</sub></p>
+<p>Veja como fica o número 2 elevado a 3, utilizando a tag &lt;sup&gt;:</p>
+<p>2<sup>3</sup></p>
+
+<p><small>Uma observação: A tag <del>font</del> era usada até o HTML4, mas foi descontinuada no HTML5, pois hoje em dia é mais útil classificar fontes e estilos através do CSS.</p></small>
+
+<small><a href="#indice">Voltar</a></small>
+
+<h3 id="listas">Listas Ordenadas e Não-Ordenadas</h3>
+<p>Outro elemento muito importante em uma página são as listas, que podem ser do formato ordenado ou não ordenado. No formato ordenado, será indicada a ordem dos itens da lista, enquanto que no não ordenado, não há indicação de ordem.</p>
+<p>As listas são muito usadas para fazer o <strong>menu</strong> das páginas web.</p>
+
+<small><a href="#indice">Voltar</a></small>
+
+<h3 id="links">Links</h3>
+<p>Por último mas não menos importante temos a tag a, que faz referência a âncora. Ela serve para indicar links no documento HTML, seja para um link na mesma página, dentro do mesmo site ou links externos.</p>
+<p>Utilizamos o atributo href para indicar o link, da seguinte forma:</p>
+
+&lt;a href="https://www.google.com.br/"&gt;Clique para visitar o Google.&lt;/a&gt;
+
+<p>Quando utilizada, o link ficará clicável, assim:
+<a href="https://www.google.com.br/">Clique para visitar o Google.</a></p>
+
+<small><a href="#indice">Voltar</a></small>
+
+<h3 id="referencias">Referências</h3>
+<p>Para compormos esta página utilizamos como referência explicações encontradas no site da MDN.</p>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML - MDN</a>
+
+</body>
+</html>
